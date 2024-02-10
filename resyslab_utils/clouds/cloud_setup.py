@@ -191,7 +191,7 @@ def setup_config_github(id_rsa_val, id_rsa_name, hostname="github.com", append =
 
     ssh_config  = f"Host {hostname}\n"
     ssh_config +=  "    HostName ssh.github.com\n"
-    ssh_config +=  "    User git\n"
+    ssh_config +=  "    User vokhoadev\n"
     ssh_config +=  "    Port 443\n"
     ssh_config +=  "    StrictHostKeyChecking no\n"
     ssh_config += f"    IdentityFile ~/.ssh/{id_rsa_name}"
